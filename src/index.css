@@ -96,6 +96,36 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body;
   }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading;
+  }
+}
+
+.text-gradient {
+  background: linear-gradient(
+    135deg,
+    hsl(258 90% 60%),
+    hsl(330 85% 58%) 55%,
+    hsl(20 95% 58%)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient-animated {
+  background-size: 200% 200%;
+}
+.hover-lift {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.hover-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px -12px hsl(258 90% 60% / 0.3);
 }
