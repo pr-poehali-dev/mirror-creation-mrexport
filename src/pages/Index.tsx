@@ -64,7 +64,7 @@ const Index = () => {
             <div className="w-9 h-9 rounded-xl bg-brand-gradient flex items-center justify-center">
               <Icon name="ShoppingBag" size={20} className="text-white" />
             </div>
-            <span className="text-xl font-heading font-extrabold tracking-tight">Mr<span className="text-gradient">Export</span></span>
+            <span className="text-xl font-heading font-extrabold tracking-tight">SD <span className="text-gradient">Trade</span></span>
           </a>
           <nav className="hidden lg:flex items-center gap-7">
             {navLinks.map((l) => (
@@ -92,7 +92,7 @@ const Index = () => {
               Всё нужное <span className="text-gradient">в одном месте</span>
             </h1>
             <p className="text-lg text-muted-foreground mb-8 max-w-md">
-              Тысячи товаров с быстрой доставкой по всей России. Покупай выгодно вместе с MrExport.
+              Тысячи товаров с быстрой доставкой по всей России. Покупай выгодно вместе с SD Trade.
             </p>
             <div className="flex flex-wrap gap-3">
               <Button size="lg" className="bg-brand-gradient gradient-animated animate-gradient-move text-white border-0 hover:opacity-90 px-8">
@@ -187,7 +187,7 @@ const Index = () => {
       <section className="container py-16">
         <div className="rounded-3xl bg-brand-gradient gradient-animated animate-gradient-move p-8 md:p-14 text-white grid md:grid-cols-2 gap-8 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-extrabold mb-4">О магазине MrExport</h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold mb-4">О магазине SD Trade</h2>
             <p className="text-white/90 mb-6 leading-relaxed">
               Мы — команда, которая делает онлайн-покупки простыми и приятными. Тщательно отбираем товары, работаем напрямую с поставщиками и гарантируем качество каждой позиции.
             </p>
@@ -237,7 +237,7 @@ const Index = () => {
               <div className="w-9 h-9 rounded-xl bg-brand-gradient flex items-center justify-center">
                 <Icon name="ShoppingBag" size={20} className="text-white" />
               </div>
-              <span className="text-xl font-heading font-extrabold">MrExport</span>
+              <span className="text-xl font-heading font-extrabold">SD Trade</span>
             </div>
             <p className="text-white/60 text-sm">Современный интернет-магазин с доставкой по всей России.</p>
           </div>
@@ -251,7 +251,7 @@ const Index = () => {
             <h4 className="font-bold mb-4">Контакты</h4>
             <ul className="space-y-3 text-sm text-white/60">
               <li className="flex items-center gap-2"><Icon name="Phone" size={16} /> 8 (800) 555-35-35</li>
-              <li className="flex items-center gap-2"><Icon name="Mail" size={16} /> info@mrexport.ru</li>
+              <li className="flex items-center gap-2"><Icon name="Mail" size={16} /> info@sdtrade.ru</li>
               <li className="flex items-center gap-2"><Icon name="MapPin" size={16} /> Москва, ул. Примерная, 1</li>
             </ul>
           </div>
@@ -267,7 +267,7 @@ const Index = () => {
           </div>
         </div>
         <div className="border-t border-white/10 py-5 text-center text-sm text-white/40">
-          © 2026 MrExport. Все права защищены.
+          © 2026 SD Trade. Все права защищены.
         </div>
       </footer>
     </div>
